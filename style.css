@@ -55,21 +55,31 @@ img {
     height: auto;
 }
 
-img.pimg {display: block;
+img.pimg {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     width: 50%;
-    height: auto;}
+    height: auto;
+}
 
 @media (max-width: 768px) {
     img {
         width: 80%;
+    }
+    
+    img.pimg {
+        width: 60%;
     }
 }
 
 @media (max-width: 480px) {
     img {
         width: 100%;
+    }
+    
+    img.pimg {
+        width: 80%;
     }
 }
