@@ -47,8 +47,8 @@ a {
 }
 
 img {
-    display: block; /* Ensures the image is treated as a block element */
+    display: block; 
     margin-left: auto;
     margin-right: auto;
-    width: 50vw; /* Adjust width as needed */
+    width: 50%; 
 }
