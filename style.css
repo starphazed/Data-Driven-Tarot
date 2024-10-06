@@ -46,6 +46,7 @@ a {
     font-style: normal;
 }
 
+/* General img styles */
 img {
     display: block;
     margin-left: auto;
@@ -55,10 +56,8 @@ img {
     height: auto;
 }
 
+/* pimg specific styles */
 img.pimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 100%;
     width: 50%;
     height: auto;
