@@ -5,6 +5,7 @@ body {
     color: #fff2df;
     align-content: center;
     justify-content: center;
+    font-size: 2vh;
 }
 
 .number {
@@ -29,6 +30,7 @@ p {
     font-family: "hack", sans-serif;
     font-weight: 400;
     font-style: italic;
+    margin: 0 20px; /* Default margin for smaller screens */
 }
 
 a {
@@ -56,29 +58,21 @@ img {
     height: auto;
 }
 
-/* pimg specific styles */
-img.pimg {
-    max-width: 100%;
-    width: 50%;
-    height: auto;
+/* Desktop-specific styling for p text */
+@media (min-width: 1024px) {
+    p {
+        margin: 0 300px; /* Adds left and right margins for desktop */
+    }
 }
 
 @media (max-width: 768px) {
     img {
         width: 80%;
     }
-    
-    img.pimg {
-        width: 60%;
-    }
 }
 
 @media (max-width: 480px) {
     img {
         width: 100%;
-    }
-    
-    img.pimg {
-        width: 80%;
     }
 }
